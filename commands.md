@@ -7,7 +7,7 @@
 这条指令的作用不言而喻，退出游戏。也可以使用 /q，因为它是完全相同的指令，只是更短更快捷而已。
 
 /save
-/save 很可能是最常用的默认指令，也可能是最有用的指令。键入 /save 后，当前位置会保存到你的电脑用户文件目录下的 savedpositions.txt。在 Android 的 SA-MP 客户端，通常文件将会保存至 /storage/emulated/primary(取决于您的用户名，通常是 0 )/Android/data/( SA-MP 客户端 APK 的软件包名) /files/SAMP/savedpositions.txt。您也可以在脚本中使用它。
+/save 很可能是最常用的默认指令，也可能是最有用的指令。  键入 /save 后，当前位置会保存到你的电脑用户文件目录下的 savedpositions.txt。  在 Android 的 SA-MP 客户端，通常文件将会保存至 /storage/emulated/primary(取决于您的用户名，通常是 0 )/Android/data/( SA-MP 客户端 APK 的软件包名) /files/SAMP/savedpositions.txt。  您也可以在脚本中使用它。
 
 /rs
 /rs（Raw Save）与 /save 类似，但它只将当前位置和朝向角度保存到电脑用户文件目录下的 rawpositions.txt。不会保存额外的信息，如等级和武器。
@@ -20,6 +20,7 @@
 
 /fpslimit
 该指令设置游戏的FPS上限。数值越高，游戏越流畅。如果在 GTA San Andreas 的 画面设置（Graphics Options）中关闭了帧数限制（Frame Limiter），则该指令无效。帧数限制可设置在 20 到 90 之间。
+
 /pagesize
 /pagesize 用于选择要显示的聊天行数。行数可从 10 行到 20 行。默认值为 10 。
 
@@ -56,7 +57,7 @@ DL 指调试标签。该指令可切换车辆上的调试标签，显示车辆 I
 直接与服务器交互指令。该指令用于执行 RCON 指令。RCON 是内置的 SAMP 管理系统，RCON 是远程控制（Remote Control）的缩写。如需登录 RCON ，请输入/rcon login [密码]
 
 # sa-mp.cfg 配置文件
-#sa-mp.cfg 是一个客户端配置文件，允许您更改与 SA-MP 相关的设置。此文件位于你的 Windows 用户帐户下的“Documents\ GTA San Andreas User Files\ SAMP”文件夹中。可以使用文本编辑器（如 Windows 自带的记事本）编辑此文件。
+#sa-mp.cfg 是一个客户端配置文件，允许您更改与 SA-MP 相关的设置。  此文件位于你的 Windows 用户帐户下的“Documents\ GTA San Andreas User Files\ SAMP”文件夹中。可以使用文本编辑器（如 Windows 自带的记事本）编辑此文件。
 pagesize
 这允许玩家设置聊天窗口中显示的行数。可以设置为 10 到 20 行。默认为 10 行。可以使用客户端 /pagesize 指令在游戏中设置此选项。
 
